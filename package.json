@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Azure functional App",
+  "keywords": [
+    "Azure_learn"
+  ],
+  "homepage": "https://github.com/UdeeshaRukshan/Azure_function_app#readme",
+  "bugs": {
+    "url": "https://github.com/UdeeshaRukshan/Azure_function_app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdeeshaRukshan/Azure_function_app.git"
+  },
+  "license": "ISC",
+  "author": "Udeesha Rukshan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.8.0"
+  }
+}
