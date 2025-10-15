@@ -1,9 +1,10 @@
 const { app } = require('@azure/functions');
 
 app.http('mySecondFunction', {
-  methods: ['GET', 'POST'],
+  methods: ['GET'],
+  authLevel: 'anonymous',
   handler: async (request, context) => {
-    context.log('Http function was triggered');
-    return { body: 'Hello, Function how are you!!!!' };
+    context.log('mySecondFunction triggered');
+    return { body: "This is the second function! ✅" };
   }
 });
