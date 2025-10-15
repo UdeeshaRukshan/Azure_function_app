@@ -16,7 +16,6 @@
   "license": "ISC",
   "author": "Udeesha Rukshan",
   "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "start":"func start"
   },

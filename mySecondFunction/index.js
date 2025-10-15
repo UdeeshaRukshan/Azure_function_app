@@ -5,6 +5,6 @@ app.http('mySecondFunction', {
   authLevel: 'anonymous',
   handler: async (request, context) => {
     context.log('mySecondFunction triggered');
-    return { body: "This is the second function! ✅" };
+    return { body: "This is the second function!" };
   }
 });
